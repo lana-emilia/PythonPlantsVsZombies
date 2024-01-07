@@ -1,29 +1,30 @@
-# PythonPlantsVsZombies
-  A simple PlantsVsZombies game. <br>
-  `It's only for personal learning and noncommercial use. If this game infringes the copyright, please let me know.`
-* implement plants: sunflower, peashooter, wallnut, snowpeashooter, cherrybomb, threepeashooter, chomper, puffshroom, potatomine, spikeweed, scaredyshroom, squash, scaredyshroom, jalapeno, sunShroom, iceShroom, hypnoShroom.
-* implement zombies: zombie, flagzombie, coneheadzombie, bucketheadzombie, newspaperzombie.
-* use json file to store level data (e.g.position and time of zombies, background info)
-* support to select plant cards at the beginning of the level
-* support day level, night level, moving card select level and wallnut bowling level
+# Python Plants VS Zombies
+Ein einfaches PlantsVsZombies-Spiel. <br>
+`Es dient nur dem persönlichen Lernen und nichtkommerziellen Gebrauch. Falls dieses Spiel das Urheberrecht verletzt, lassen Sie es mich bitte wissen.`
 
-# Requirement
-* Python 3.7 
-* Notice: python version 3.7 is advisable, but not required. For LINUX: if your Linux system has a preinstalled python 3+, it's ok to run this game. Updating to python 3.7 directly may break LINUX Mint.
+* Implementiere Pflanzen: Sonnenblume, Erbsenkanone, Walnuss, Schneeball-Erbsenkanone, Kirschbombe, Dreifach-Erbsenkanone, Schnapper, Puffpilz, Kartoffelmine, Dornenkraut, Angsthäschen, Kürbis, Angsthäschen, Jalapeño, Sonnenpilz, Eispilz, Hypnokraut.
+* Implementiere Zombies: Zombie, Flaggenzombie, Eimerkopfzombie, Zeitungszombie.
+
+* Verwende JSON-Dateien, um Level-Daten zu speichern (z.B. Position und Zeit der Zombies, Hintergrundinformationen).
+* Unterstütze die Auswahl von Pflanzenkarten zu Beginn des Levels.
+* Unterstütze Tageslevel, Nachtlevel, Level mit beweglicher Karten-Auswahl und Level mit Wall-Nuss-Bowling.
+
+# Anforderungen
+* Python 3.7
+* Hinweis: Python-Version 3.7 wird empfohlen, ist jedoch nicht zwingend erforderlich. Für LINUX: Wenn Ihr Linux-System bereits Python 3+ vorinstalliert hat, können Sie dieses Spiel problemlos ausführen. Das direkte Aktualisieren auf Python 3.7 kann LINUX Mint möglicherweise beeinträchtigen.
 * Python-Pygame 1.9
 
-# How To Start Game
-$ python main.py
+# Spielstart
 
-# How to Play
-* use mouse to collect sun, select the plant cards and seed the plant 
-* you can set the start level by changing START_LEVEL_NUM value in source/constants.py
-  * level 1 and 2：day level
-  * level 3: night level
-  * level 4: moving card select level
-  * level 5: wallnut bowling level
+    $ python main.py
+
+# Spielanleitung
+* Verwende die Maus, um Sonnen zu sammeln, Pflanzenkarten auszuwählen und die Pflanze zu setzen.
+* Du kannst das Startlevel ändern, indem du den Wert von START_LEVEL_NUM in der Datei source/constants.py änderst.
+  * Level 1 und 2: Tageslevel
+  * Level 3: Nachtlevel
+  * Level 4: Level mit beweglicher Karten-Auswahl
+  * Level 5: Wall-Nuss-Bowling-Level
 
 # Demo
-![demo1](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo1.jpg)
-![demo2](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo2.jpg)
-
+![demo1](./demo/demo1.jpg)
